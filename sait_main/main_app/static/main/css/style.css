@@ -37,33 +37,30 @@ body {
 }
 
 .card .bnt_card{
-    width: 100%;
-    display: table-column;
-    /* border-collapse: collapse; */
-
-    /* display: flex; */
     position: absolute;
     bottom: 10px;
-    margin-left: auto;
-
-
+    margin-left: 65px;
+    bottom: 20px; 
 
 } .card .bnt_card .button1{
-    width: 100%;
     background-color : rgb(228, 92, 92);
     color:aliceblue;
-    transition: 0.2s
+    transition: 0.2s;
+
 } .card .bnt_card .button2{
-    width: 100%;
     background-color : rgb(79, 192, 75);
     color:aliceblue;
-    transition: 0.2s
+    transition: 0.2s;
+
 } .card .bnt_card .button1:hover{
     background-color : rgb(255, 0, 0);
 
 } .card .bnt_card .button2:hover{
     background-color: rgb(94, 255, 0);
-    /* transform: rotateX('angle'); */
 
+}
+
+.text-dan name{
+    top: auto;
 }
 
