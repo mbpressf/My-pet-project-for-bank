@@ -7,3 +7,9 @@ function showResult() {
         document.getElementById("work").innerHTML = val;
     }
   }
+
+
+function take_button() {
+  open(URL='https://www.youtube.com/');
+  // console.log("Соси мой член");
+}

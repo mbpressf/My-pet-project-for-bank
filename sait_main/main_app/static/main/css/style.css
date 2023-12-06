@@ -12,6 +12,7 @@ body {
 }
 
 .card{
+    background-color: #f8f8d9;
     width: 300px;
     height: 400px;
     display: grid;
@@ -39,28 +40,29 @@ body {
 .card .bnt_card{
     position: absolute;
     bottom: 10px;
-    margin-left: 65px;
-    bottom: 20px; 
-
-} .card .bnt_card .button1{
-    background-color : rgb(228, 92, 92);
-    color:aliceblue;
-    transition: 0.2s;
-
-} .card .bnt_card .button2{
-    background-color : rgb(79, 192, 75);
-    color:aliceblue;
-    transition: 0.2s;
-
-} .card .bnt_card .button1:hover{
-    background-color : rgb(255, 0, 0);
-
-} .card .bnt_card .button2:hover{
-    background-color: rgb(94, 255, 0);
-
+    margin-left: 20px;
 }
 
-.text-dan name{
-    top: auto;
+#cancel{
+    width: 130px;
+    background-color: brown;
+} #agree{
+    width: 130px;
+    background-color:darkgreen;
+} #cancel:hover {
+    background-color:crimson;
+} #agree:hover {
+    background-color:green;
+}
+
+#text-dan{
+    display: block;
+}
+
+
+#text-dan #work{
+    
+    text-align: center;
+    margin-top: auto;
 }
 

@@ -3,6 +3,7 @@ from django.http import HttpResponse
 
 def index(request):
     return render(request, 'main/index.html')
+    # return render(request, 'main/testing.html')
 
 
 # def view_input_html(request):

@@ -8,7 +8,6 @@
     <title>Админ панель банка</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
     <link rel="stylesheet" href="{% static 'main/css/style.css' %}">
-    <!-- <link href="{% static 'main/js/input.js' %}"> -->
 
     <script src="{% static 'main/js/input.js' %}"></script>
 
@@ -21,21 +20,19 @@
 
 
     <div class="card">
-        <h3>Запрос на кредит</h3>
-
-            
-
+        
         <div id="text-dan">
+            <h3>Запрос на кредит</h3>
+            <hr>
 
             <h4 id="work">Программист</h1>
-
+            
         </div>
 
         
-        
         <div class="bnt_card">
-            <button type="button1" class="button1">Отклонить</button>
-            <button type="button2" class="button2">Принять</button>
+            <button type="button" id='cancel' class="btn btn-lg btn-primary btn-sm" >Отклонить</button>
+            <button type="button" onclick='take_button()' id='agree' class="btn btn-lg btn-primary btn-sm" >Принять</button>
         </div>
 
 
