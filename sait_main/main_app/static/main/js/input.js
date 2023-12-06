@@ -10,6 +10,5 @@ function showResult() {
 
 
 function take_button() {
-  open(URL='https://www.youtube.com/');
-  // console.log("Соси мой член");
+  open(URL='https://www.youtube.com/watch?v=spWiWzbtVx4')
 }
