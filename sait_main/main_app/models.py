@@ -1,3 +1,5 @@
 from django.db import models
 
-# Create your models here.
+
+class User_credit(models.Model):
+    pass
